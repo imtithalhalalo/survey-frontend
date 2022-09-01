@@ -1,0 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Colors */
+.color_grey {
+  background-color: #e5e5e5;
+}
+
+.color_dark_red {
+  color: #8e5656;
+}
+
+.color_brighter_red {
+  color: #b27070;
+}
+
+.color_darker_grey {
+  background-color: #abacab;
+}
+
+/* Main Container */
+
+.main-container {
+  margin: auto;
+  max-width: 38rem;
+  flex-grow: 2;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Header */
+
+.title {
+  background-color: #ffff;
+  font-size: 2.1vw;
+  padding: 5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+/* Form */
+
+form {
+  padding: 5% 10% 8%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 7%;
+
+}
+
+.item {
+  width: 15.1rem;
+  height: fit-content;
+}
+
+.question {
+  padding-bottom: 1%;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.inputs {
+  width: 95%;
+  margin-top: 2%;
+  border-radius: 2px;
+  padding: 1%;
+}
+
+.choice {
+  margin-bottom: 10px;
+}
+
+/* Additional Comment */
+
+.comments {
+  margin-top: 10%;
+}
+
+/* Button */
+
+.button {
+  align-items: center;
+  padding: 8px 40px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #444, #777);
+  font-size: 12px;
+  color: #dfdedf;
+}
+
+.btn {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
