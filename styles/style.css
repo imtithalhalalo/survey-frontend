@@ -81,3 +81,26 @@ p {
   margin-bottom: 10px;
 }
 
+/* Additional Comment */
+
+.comments {
+  margin-top: 10%;
+}
+
+/* Button */
+
+.button {
+  align-items: center;
+  padding: 8px 40px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #444, #777);
+  font-size: 12px;
+  color: #dfdedf;
+}
+
+.btn {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
