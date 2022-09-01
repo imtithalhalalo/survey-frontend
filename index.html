@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="color_darker_grey">
+    <div class="main-container color_grey">
+        <div class="title">
+            <h2 class="color_dark_red">Follow Up Survey</h2>
+        </div>
+        <form>
+            <!-- First two Questions -->
+            <div class="flex">
+                <div class="item">
+                    <p class="color_dark_red">When did you use our service?</p>
+                    <input class="inputs" type="date" value="2022-08-31">
+                    <small style="color: #a5a5a5">Date</small>
+                </div>
+                <div class="item">
+                    <p class="color_dark_red">Name of product or service</p>
+                    <input class="inputs" type="input" />
+                </div>
+            </div>
+
+
+            <!-- Third Question -->
+            <p class="question color_dark_red">Overall, how satisfied are you with the product or service?</p>
+            <div class="flex">
+
+                <!-- Left Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="very_satisfied"
+                            name="satisfaction"
+                            value="Very Satisfied"
+                        />
+                        <label class="color_brighter_red" for="very_satisfied">Very satisfied</label>
+                    </div>
+
+                    <div class="choice">
+                        <input
+                          class="radio"
+                          type="radio"
+                          id="neutral"
+                          name="satisfaction"
+                          value="Neutral"
+                        />
+                        <label class="color_brighter_red" for="neutral">Neutral</label>
+                    </div>
+
+                    <div class="choice">
+                        <input
+                          class="radio"
+                          type="radio"
+                          id="very_unsatisfied"
+                          name="satisfaction"
+                          value="Very Unsatisfied"
+                        />
+                        <label class="color_brighter_red" for="very_unsatisfied">Very unsatisfied</label>
+                    </div>
+                </div>
+
+
+                <!-- Right Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="satisfied"
+                            name="satisfaction"
+                            value="Satisfied"
+                        />
+                        <label class="color_brighter_red" for="satisfied">Satisfied</label>
+                    </div>
+
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="unsatisfied"
+                            name="satisfaction"
+                            value="Unsatisfied"
+                        />
+                        <label class="color_brighter_red" for="unsatisfied">Unsatisfied</label>
+                    </div>
+
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="na"
+                            name="satisfaction"
+                            value="N/A"
+                        />
+                        <label class="color_brighter_red" for="na">N/A</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fourth Question -->
+            <p class="question color_dark_red">Did our product or service meet your expectations?</p>
+            <div class="flex">
+
+                <!-- Left Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="yes"
+                            name="expectations"
+                            value="Yes"
+                        />
+                        <label class="color_brighter_red" for="expectations">Yes</label>
+                    </div>
+                </div>
+
+
+                <!-- Right Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="no"
+                            name="expectations"
+                            value="No"
+                            checked
+                        />
+                        <label class="color_brighter_red" for="expectations">No</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Fifth Question -->
+            <p class="question color_dark_red">Would you recommend this product or service to a friend?</p>
+            <div class="flex">
+
+                <!-- Left Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="yes"
+                            name="exp"
+                            value="Yes"
+                        />
+                        <label class="color_brighter_red" for="exp">Yes</label>
+                    </div>
+                </div>
+
+
+                <!-- Right Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="no"
+                            name="exp"
+                            value="No"
+                            checked
+                        />
+                        <label class="color_brighter_red" for="exp">No</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Sixth Question -->
+            <p class="question color_dark_red">What aspect of the product or service were you most satisfied by?</p>
+            <div class="flex">
+
+                <!-- Left Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="quality"
+                            name="aspect"
+                            value="Quality"
+                        />
+                        <label class="color_brighter_red" for="quality">Quality</label>
+                    </div>
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="customer_service"
+                            name="aspect"
+                            value="Customer Service"
+                        />
+                        <label class="color_brighter_red" for="customer_service">Customer service</label>
+                    </div>
+                </div>
+
+
+                <!-- Right Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                        class="radio"
+                        type="radio"
+                        id="price"
+                        name="aspect"
+                        value="Price"
+                        />
+                        <label class="color_brighter_red" for="price">Price</label>
+                    </div>
+                    <div class="choice">
+                        <input
+                        class="radio"
+                        type="radio"
+                        id="installation"
+                        name="aspect"
+                        value="Installation"
+                        />
+                        <label class="color_brighter_red" for="installation">Installation or first use experience</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Seventh Question -->
+            <p class="question color_dark_red">What aspect of the product or service were you least satisfied by?</p>
+            <div class="flex">
+
+                <!-- Left Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="q"
+                            name="asp"
+                            value="Quality"
+                        />
+                        <label class="color_brighter_red" for="q">Quality</label>
+                    </div>
+                    <div class="choice">
+                        <input
+                            class="radio"
+                            type="radio"
+                            id="cs"
+                            name="asp"
+                            value="Customer Service"
+                        />
+                        <label class="color_brighter_red" for="cs">Customer service</label>
+                    </div>
+                </div>
+
+
+                <!-- Right Items -->
+                <div class="item">
+                    <div class="choice">
+                        <input
+                        class="radio"
+                        type="radio"
+                        id="p"
+                        name="asp"
+                        value="Price"
+                        />
+                        <label class="color_brighter_red" for="p">Price</label>
+                    </div>
+                    <div class="choice">
+                        <input
+                        class="radio"
+                        type="radio"
+                        id="install"
+                        name="asp"
+                        value="Installation"
+                        />
+                        <label class="color_brighter_red" for="install">Installation or first use experience</label>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Additional Comment -->
+
+            <div class="comments">
+                <label class="color_dark_red"> Additional comments: </label>
+                <textarea
+                  rows="6"
+                  class="inputs"
+                  placeholder="Type here... "
+                ></textarea>
+            </div>
+
+
+            <!-- Submit -->
+            <div class="btn">
+                <button type="button" class="button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
