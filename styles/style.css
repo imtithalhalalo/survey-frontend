@@ -20,3 +20,14 @@
 .color_darker_grey {
   background-color: #abacab;
 }
+
+/* Main Container */
+
+.main-container {
+  margin: auto;
+  max-width: 38rem;
+  flex-grow: 2;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
